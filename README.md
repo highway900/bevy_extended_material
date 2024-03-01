@@ -1,6 +1,6 @@
 Bevy [Example Extended Material](https://github.com/bevyengine/bevy/blob/release-0.13.1/assets/shaders/extended_material.wgsl) with additional parameter
 
-Currently this will crash and cause a binding error
+Currently this will crash and cause a binding error `cargo run`
 ```
 wgpu error: Validation Error
 
