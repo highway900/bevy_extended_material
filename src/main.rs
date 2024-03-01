@@ -41,6 +41,7 @@ fn setup(
             extension: MyExtension {
                 quantize_steps: 3,
                 offset: 1.0,
+                position: Vec4::ZERO,
             },
         }),
         ..default()
@@ -78,6 +79,7 @@ struct MyExtension {
     #[uniform(100)]
     quantize_steps: u32,
     offset: f32,
+    position: Vec4,
 }
 
 impl MaterialExtension for MyExtension {

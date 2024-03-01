@@ -17,7 +17,8 @@
 
 struct MyExtendedMaterial {
     quantize_steps: u32,
-    offset: f32
+    offset: f32,
+    position: vec4<f32>
 }
 
 @group(2) @binding(100)
