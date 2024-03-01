@@ -1,4 +1,4 @@
-Bevy [Example Extended Material](https://github.com/bevyengine/bevy/blob/release-0.13.1/assets/shaders/extended_material.wgsl) with additional parameter
+Bevy [Example Extended Material](https://github.com/bevyengine/bevy/blob/release-0.13.1/assets/shaders/extended_material.wgsl) with additional parameters
 
 Currently this will crash and cause a binding error `cargo run`
 ```
